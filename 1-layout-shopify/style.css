@@ -24,26 +24,32 @@
 }
 
 .text-grey {
-  color: #c4cdd5;
+  color: #888888;
+}
+
+.background-purple {
+  background-color: #30373b;
 }
 
 .container--input--input {
   margin-bottom: 10px;
   /* why the input overpass the wrapper forcing the margin be at 70px? */
-  margin-right: 70px;
+  /* margin-right: 70px; */
+  width: 100%;
 }
 
 .input {
-  width: 100%;
+
   border: none;
   padding: 17px 30px;
   border-radius: 3px;
 }
 
+
 .btn {
-  width: 100%;
+  /* width: 100%;
   color: #fff;
-  background-color: #30373b;
+  background-color: #30373b; */
   border: none;
   padding: 17px 30px;
   border-radius: 3px;
@@ -67,7 +73,7 @@
     width: 100%;
   }
 
-  *[class^="container--"] + *[class^="container--"]:not(.container--spec) {
+  *[class^="container--"]+*[class^="container--"]:not(.container--spec) {
     padding-top: 15px;
   }
 }
@@ -83,7 +89,8 @@
     flex-direction: row;
   }
 
-  .container--spec + .container--spec {
+  /* important */
+  .container--spec+.container--spec {
     margin-left: 1%;
   }
 
