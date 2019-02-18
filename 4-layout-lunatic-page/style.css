@@ -8,11 +8,15 @@
     align-items: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 @media all and (min-width: 1025px) {
 
-    .text-center {
+    /* .text-center {
         text-align: center;
-    }
+    } */
 
     .is-center {
         align-items: center;
@@ -97,7 +101,12 @@
     }
 }
 
-@media (max-with: 680px) {
+@media all and (max-with: 680px) {
+
+    /* TEST */
+    body {
+        background-color: brown
+    }
 
     .is-center {
         align-items: center;

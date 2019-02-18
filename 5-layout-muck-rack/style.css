@@ -1,0 +1,48 @@
+@media all and (min-width: 1025px) {
+
+    .text-center {
+        text-align: center;
+    }
+
+    .is-center {
+        align-items: center;
+    }
+
+    .is-left {
+        align-items: left;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .row-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .container--testimonial {
+        padding: 40px;
+
+    }
+
+
+}
+
+@media all and (min-width: 681px) and (max-width: 1024px) {}
+
+@media all and (max-with: 680px) {}
