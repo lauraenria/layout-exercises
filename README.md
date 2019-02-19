@@ -22,6 +22,8 @@
 
 5. [Landing Page Muck Rack](https://muckrack.com/)
 
+6. [Landing Page Rocket](https://www.templatemonster.com/demo/66268.html)
+
 extra:
 
 - [Examples Landing page](https://blog.hubspot.com/marketing/landing-page-examples-list)
