@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.vr-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.t-center {
+  text-align: center;
+}
+.container--list {
+  display: flex;
+  flex-direction: row;
+}
+.container--list .sep {
+  width: 2%;
+  min-width: 15px;
+}
+/* MEDIA QUERIES*/
+@media all and (max-width: 680px) {
+  .show-desktop {
+    display: none;
+  }
+}

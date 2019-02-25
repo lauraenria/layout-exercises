@@ -10,6 +10,15 @@
 - run on the terminal `python -m SimpleHTTPServer`
 - use http://localhost:8000/
 
+## How to compile less in css
+
+1. run `npm install less`
+2. run `npm install less-watch-compiler`
+
+   - syntax `less-watch-compiler [options] <source_dir> <destination_dir>`
+
+3. (in the project folder) run `less-watch-compiler less css`
+
 ## Resources
 
 1. [Landing Page shopify](https://www.shopify.com/free-trial)
